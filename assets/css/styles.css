@@ -1,0 +1,150 @@
+body{
+    background-color: whitesmoke;
+}
+
+.header {
+    background-color: rgb(98, 155, 230);
+    padding: 40px;
+}
+
+#header {
+    font-size: 40px;
+}
+
+#title h1{
+    font-weight: 700;
+}
+
+#main h1, #cityName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+}
+
+#title h5,#main p, #cityName, #currentTemp{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+#datetime {
+    font-size: 30px;
+}
+
+#description {
+    padding: 20px;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+#cityName{
+    font-size: 30px;
+}
+
+#currentTemp{
+    font-size: 40px;
+}
+
+#date{
+    font-size: 20px;
+}
+
+.card{
+    margin: 20vh 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+.form-control{
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#searchBtn{
+    background-color: black;
+}
+
+#searchHistory{
+    list-style: none;
+    padding: 0px;
+    padding: 0px 8px;
+}
+
+#searchHistory li{
+    border-bottom: 1px solid gray;
+}
+
+#clearHistory{
+    font-style: italic;
+    font-weight: 300;
+    padding: 0px 8px;
+    float: right;
+}
+
+#uv{
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* Forecast Cards */
+
+#forecastHeader h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+}
+
+#forecastDiv h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.forecastCard{
+    margin-bottom: 20px;
+    background-color: rgb(98, 155, 230);
+}
+
+@media (max-width: 768px) {
+    #title{
+        text-align: center;
+    }
+    .card{
+        margin: 10vh 3vw;
+    }
+    #cityName{
+        font-size: 20px;
+    }
+    
+    #currentTemp{
+        font-size: 30px;
+    }
+    
+    #date{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 426px){
+    .card{
+        margin: 5vh 3vw;
+    }
+}
